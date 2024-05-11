@@ -1,8 +1,17 @@
+#!/usr/bin/env python3
 import random 
 import string
+'''
+Password Picker
 
+This program will create a new simple password 
+combining words, numbers, and characters.
+The password will be output to the terminal
+You can continue to generate passwords until you
+find one that you like
+'''
 
-
+# Word bank
 adjectives = ['sleepy', 'slow', 'smelly', 
               'wet', 'fat', 'red',
               'orange', 'yellow', 'green',
@@ -28,3 +37,4 @@ while True:
     response = input('Would you like another password? Type y or n: ')
     if response == 'n':
         break
+    
