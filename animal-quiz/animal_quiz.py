@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+'''
+Animial Quiz
+
+This program asks a player simple questions about animals.
+The user gets three chances to answer each question.
+Each correct answer will score 1 point.
+At the end of the quiz, the program reveals the player's final score.
+'''
+
 def check_guess(guess, answer):
     global score
     still_guessing = True
